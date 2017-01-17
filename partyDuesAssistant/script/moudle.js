@@ -48,6 +48,7 @@ function setPartyDuesIteam(uid,auth_token){
 	
 	console.log("type: "+typeof getList+" content: "+JSON.stringify(getList));
 	
+	if(getList)
 	if(getList['prtyFee'] == "-1"){
 		$("#party-dues-assistant-noData-id").attr({"style":"display:block"});
 	}else{

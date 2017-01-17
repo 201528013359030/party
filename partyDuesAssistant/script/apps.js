@@ -13,6 +13,7 @@ notfound.init = function(){
 var partyDuesAssistant = {};
 partyDuesAssistant.partial = "../html/temp/partyDuesAssistant.html";
 partyDuesAssistant.init = function(){
+	alert(NATIVE_UID);
     miniSPA.render("partyDuesAssistant");
     
     var uid = NATIVE_UID;
